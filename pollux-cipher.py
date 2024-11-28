@@ -79,10 +79,15 @@ try:
     plaintext = "hannah ramos 09"
     morse_code, encoded_text, decoded_text = pollux_cipher(plaintext)
     
-    print("=" * 80)
+print("=" * 80)
     print(f"{'POLLUX CIPHER':^80}") 
     print("=" * 80)
+    print(f"{'ENCODE':^80}") 
     print(f"{'Test String:':<20} {plaintext}")
+    print(f"{'Morse Code:':<20} {morse_code}")
+    print(f"{'Encrypted Text:':<20} {encoded_text}")
+    print("=" * 80)
+    print(f"{'DECODE':^80}")
     print(f"{'Encrypted Text:':<20} {encoded_text}")
     print(f"{'Morse Code:':<20} {morse_code}")
     print(f"{'Decrypted Text:':<20} {decoded_text}")
